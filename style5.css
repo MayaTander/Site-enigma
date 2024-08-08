@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+input {
+    margin-top: 80px;
+    text-align: center;
+    border: white solid 1px;
+    background-color: black;
+    padding: 8px;
+    color: white;
+    font-size: 15px;
+}
+
+#bloco {
+    max-width: 150px;
+}
+
+#bloco2 {
+    max-width: 170px;
+}
+
+@media (max-width: 667px) {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        margin-top: 100px;
+    }
+
+}
